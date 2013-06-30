@@ -1,0 +1,8 @@
+{application, simple_env, [
+  {id, "simple_env"},
+  {description, "Simple env library for erlang"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+]}.
