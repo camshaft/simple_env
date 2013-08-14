@@ -26,7 +26,7 @@ get_binary(Name, Default)->
   end.
 
 get_integer(Name)->
-  ?MODULE:get_binary(Name, undefined).
+  ?MODULE:get_integer(Name, undefined).
 
 get_integer(Name, Default)->
   case ?MODULE:get(Name) of
